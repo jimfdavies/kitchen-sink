@@ -1,0 +1,16 @@
+---
+driver:
+  name: docker
+
+provisioner:
+  name: puppet_apply
+  manifests_path: manifests
+  modules_path: modules
+
+platforms:
+  - name: centos-7.1
+
+suites:
+  - name: default
+    run_list:
+    attributes:

@@ -6,3 +6,4 @@ gem 'puppet'
 gem 'kitchen-docker'  
 gem 'kitchen-puppet'  
 gem 'test-kitchen' 
+gem "kitchen-vagrant"
