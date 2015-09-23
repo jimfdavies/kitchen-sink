@@ -4,6 +4,6 @@
  set :backend, :exec  
  set :path, '/sbin:/usr/local/sbin:$PATH'
 
- describe package('vim') do  
+ describe package('lynx') do  
    it { should be_installed }
  end
