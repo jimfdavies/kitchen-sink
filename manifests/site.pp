@@ -1,4 +1,4 @@
 # Install a package
-package { 'vim':  
+package { 'lynx':  
   ensure => installed,
 }
